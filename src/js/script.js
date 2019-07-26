@@ -7,11 +7,6 @@
 
 	$.fn.sparkline.defaults.bar.height = 63;
 	$.fn.sparkline.defaults.bar.barWidth = 6;
-
-	if( $('body').width() < 600 )
-		$.fn.sparkline.defaults.bar.barWidth = 4;
-	else if( $('body').width() < 1200 )
-		$.fn.sparkline.defaults.bar.barWidth = 5;
 	$.fn.sparkline.defaults.bar.barSpacing = 1;
 	$.fn.sparkline.defaults.bar.tooltipClassname = 'jqstooltip';
 	$.fn.sparkline.defaults.bar.tooltipOffsetX = 0;
